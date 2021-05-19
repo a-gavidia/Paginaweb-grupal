@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Playfair + Pantalla: wght @ 600 & display = intercambiar "rel =" hoja de estilo ">
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+
+}
+section{
+    width:100%;
+    height:100vh;
+    background: url(img/Fondo.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: rgb(102, 96, 96);
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon1 {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon2 {background: #1e5e23;}
+	.social ul li .icon3 {background: #23b388;}
+	.social ul li .icon4 {background: #cf1b24;}
+	.social ul li .icon5 {background: #3e8bf0;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 12px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+    .social{
+        position: fixed;
+        left: -30;
+        top: 300px;
+        z-index: 2000;
+    }
+
+    social.ul{
+        list-style: none;
+    }
+
+    .social ul li a{
+        display: inline-block;
+        color:#fff;
+        background:rgb(0, 0, 0);
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    footer{
+        display: block;
+        min-height: 60px;
+        background:#1f1d1d;
+        text-align: center;
+        padding-top: 14px;
+        border-top: 8px solid #1ad1ff;
+        margin-top: 8px;
+    }
+
+    .contenedor-footer{
+        color:#fff;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 30px;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+
+    .content-foo{
+        text-align: center;
+    }
+
+    .content-foo h4{
+        color:rgb(255, 255, 255);
+        border-bottom: 3px outset #ff01f2;
+        padding-bottom: 10px;
+        font-size: 20px;
+        text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+    }
+
+    .content-foo p{
+        color:#fff;
+        font-size: 20px;
+        font-weight: 600px;
+        text-shadow: 2px 2px 2px #146aa3;
+    }
+
+    .footer-social{
+        color:#fff;
+        font-size: 170%;
+        padding: 8%;
+    }
+
+    .titulo-final{
+        text-align: center;
+        font-size: 26px;
+        margin: 22px 0 0 0;
+        color:#fff;
+        padding: 6px;
+        text-shadow: 4px 4px 0 #000, 4px 4px 0 #000;
+    }
+
+ 

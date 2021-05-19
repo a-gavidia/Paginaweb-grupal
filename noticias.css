@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Playfair + Pantalla: wght @ 600 & display = intercambiar "rel =" hoja de estilo ">
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+
+}
+section{
+    width:100%;
+    height:100vh;
+    background: url(img/notif.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+body{
+    background:background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    text-transform:uppercase; 
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 38px;
+    font-family: Bodoni Bd BT;
+}
+
+.img-galle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.g-img{
+    padding: 0 20px 20px;
+}
+img:hover{
+    opacity: .8;
+    transition: .9s;
+}
+img{
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+  }
+
+  h4 {
+    text-align: center;
+    color:rgb(238, 27, 27);
+    font-size: 3em;
+    position: absolute;
+    left: 4%;
+    top: 8%
+}
+
+ p1{
+    text-align: left ;
+    color:rgb(15, 34, 28);
+    font-size: 17px;
+    position: absolute;
+    left: 38%;
+    top: 42%;
+    margin: auto;
+    font-family: CentSchbkCyrill BT;   
+    }
+    
+    h5{
+        text-align: right;
+        color:rgb(48, 27, 238);
+        font-size: 18px;
+        position: absolute;
+        left: 24%;
+        top: 36%;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        color:#E6F30E;
+        font-size: 3em;
+        font-family: Castellar;
+    }
+    h1{
+        text-align: center;
+        color:#F30E92;
+        font-size: 2em;
+        font-family: Rockwell Extra Bold;
+    }
+
+    p2{
+        color:rgb(52, 214, 19);
+        font-size: 20px;
+
+    }
